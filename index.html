@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="openNav">&#9776;</div>
+            <div class="logo"><a href="#"><img src="./assets/img/sneakersV2.svg" alt="sneakers"></a></div>       
+            
+            <ul class="navBar">
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="outside-nav">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><img src="./assets/img/OvalV2.svg" alt="men"></a>
+            </div>
+        </nav>
+    </header>
+    <div class="underline"></div> 
+
+    <section id="container">
+            <div class="img-position">
+                <div class="img-profil"><img src=".//assets/img/photo1.svg" alt="sneakers" class="cover">
+                    <div class="arrow-container">
+                    <div class="arrow-left"><i class='fas fa-chevron-left'></i></div>
+                    <div class="arrow-right"><i class='fas fa-chevron-right'></i></div>
+                    </div>
+                
+                </div>
+                <div class="rest-images">
+                    <img src="./assets/img/photo1.svg" alt="sneakers">
+                    <img src="./assets/img/photo2.svg" alt="sneakers">
+                    <img src="./assets/img/photo3.svg" alt="sneakers">
+                    <img src="./assets/img/photo4.svg" alt="sneakers">
+                </div>
+            </div> 
+                
+                <div class="about">
+                    <div class="title">SNEAKER COMPANY</div>
+                    <h1>Fall Limited Edition <br>Sneakers</h1>
+                    <p>These low-profile sneakers are your perfect casual wear <br>
+                        companion. Featuring a durable rubber outer sole, they'll <br>
+                        withstand evrythingthe weather can offer.
+                    </p>
+                    <div class="price">$125.00 <span>50%</span>
+                        <p>$250.00</p>
+                    </div>
+                    
+                    <div class="conteur">
+                      <div class="btnAdd-rm">
+                        <button id="btnRm">-</button>
+                        <span id="nb">0</span>
+                        <button id="btnAdd">+</button>
+                      </div>
+                        <span class="addCart"><i class="fa-solid fa-cart-shopping"></i>Add to cart</span>
+                    </div>
+                </div>
+
+                <div class="pop-up">
+                    <div class="closeAppear">&#10006;</div>
+                    <p>Join our newsletter to receive the latest updates and promotions.</p>
+                    <form method="">
+                        <input type="email" placeholder="E-mail">
+                        <button type="submit">subscribe</button>
+                    </form>
+                </div>
+    </section>
+    <footer>
+        <p>&copy; Copyright  <span class="year"></span> - All rights reserved.</p>
+    </footer>
+</body>
+    <script src="./assets/js/script.js"></script>
+</html>
